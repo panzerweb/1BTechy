@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=Open+Sans:wght@500&family=Orbitron:wght@400;500&family=Roboto&family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-color: #121212;
+    --text-color: #F4EEE0;
+    --secondary-text: #bdbdbd;
+    --hover-color: rgb(245,158,11);
+}
+
+body{
+    min-height: 150vh;
+    background: var(--bg-color);
+    width: 100%;
+}
+body::before{
+    display: block;
+    content: '';
+    height: 1rem;
+}
+
+/*todo NAVBAR*/
+.navbar{
+    background: var(--bg-color);
+}
+
+#navbar-ul li{
+    margin: 0.1em;
+    border-radius: 0.8rem;
+}
+#navbar-ul li a{
+    color: var(--text-color);
+    font-family: 'Goldman', cursive;
+    transition: 0.2s linear;
+}
+#navbar-ul li a:hover{
+    transform: scale(1.1);
+    letter-spacing: 0.1em;
+}
+
+/* Style the list items inside the dropdown */
+/* Style the list items inside the dropdown */
+#navbar-ul .dropdown-item {
+    margin: 0.1em;
+    border-radius: 0.8rem;
+}
+
+.dropdown-menu{
+    background: var(--bg-color);
+}
+
+/* Style the links inside the dropdown */
+#navbar-ul .dropdown-item a {
+    color: var(--text-color);
+    font-family: 'Goldman', cursive;
+    transition: 0.2s linear;
+}
+#navbar-ul .dropdown-item:hover {
+    background-color: #198754;
+}
+
+
+/* todo MAIN PAGE */
+#homepage{
+    width: 100%;
+    height: 110vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.801)), url("./Assets/Images/BSIT-1B 1ST PHOTO.png");    
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#homepage h1{
+    font-size: 7.594rem;
+    font-family: 'Orbitron', sans-serif;
+    color: var(--text-color);
+}
+#homepage p{
+    color: var(--secondary-text);
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    #homepage h1{
+        font-size: 3rem;
+        overflow: hidden;
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        color: var(--text-color);
+    }
+    #homepage p{
+        text-align: center;
+        overflow: hidden;
+        color: var(--secondary-text);
+        font-size: 1.5rem;
+    }
+
+}
