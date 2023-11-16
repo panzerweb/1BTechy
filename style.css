@@ -7,7 +7,9 @@
 
 :root{
     --bg-color: #121212;
+    --second-bg: #222222;
     --text-color: #F4EEE0;
+    --tertiary-text: #c7900f;
     --secondary-text: #bdbdbd;
     --hover-color: rgb(245,158,11);
 }
@@ -91,9 +93,39 @@ body::before{
     font-family: 'Open Sans', sans-serif;}
 
 
+/*todo SPACE DIVIDER*/
+#space-divide{
+    padding: 2rem;
+    background-image: url("./Assets/Images/Keyboard.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
 
+#space-divide h1{
+    font-family: 'Orbitron', sans-serif;
+    color: var(--tertiary-text);
+    font-size: 4.716rem;
+    text-shadow: 1px 0px 25px rgba(23, 17, 2, 1);
 
+}
+#space-divide p{
+    font-size: 1.295rem;
+    font-family: 'Roboto', sans-serif;
+    color: var(--secondary-text);
+}
+#space-divide strong{
+    font-size: 1.5rem;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 0.1rem;
+    color: rgb(63, 196, 11);
+    text-shadow: 1px 0px 25px rgba(16, 87, 54, 1);
+}
 @media screen and (max-width: 1024px) {
+    #homepage{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.801)), url("./Assets/Images/BSIT-1B\ Discord\ Logo.png");    
+    }
     #homepage h1{
         font-size: 3rem;
         overflow: hidden;

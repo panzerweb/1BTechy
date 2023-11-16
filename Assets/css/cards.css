@@ -1,0 +1,118 @@
+:root{
+    --bg-color: #121212;
+    --second-bg: #0e0d0d9f;
+    --text-color: #F4EEE0;
+    --tertiary-text: #c7900f;
+    --secondary-text: #bdbdbd;
+    --hover-color: rgb(245,158,11);
+}
+
+
+#goals-space{
+    background: var(--second-bg);
+}
+#goals-space h1{
+    color: var(--tertiary-text);
+    font-family: 'Orbitron', sans-serif;
+}
+
+#goals-space h1::after {
+    content: "";
+    display: block;
+    width: 40px; /* Adjust the width of the underline */
+    height: 4px; /* Adjust the height and thickness of the underline */
+    background-color: rgb(63, 196, 11); /* Set the color of the underline */
+    margin: 10px auto; /* Adjust the spacing between the text and underline */
+  }
+
+
+.code-editor {
+    max-width: 300px;
+    background-color: #1d1e22;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    padding: 2px;
+    margin: 0.5rem auto;
+    transition: 0.2s ease-in-out;
+  }
+
+  .code-editor:hover{
+    transform: scaleX(1.02);
+    box-shadow: 0px 4px 30px rgba(117, 240, 219, 0.5);
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
+  .title {
+    font-family: Lato, sans-serif;
+    font-weight: 900;
+    font-size: 14px;
+    letter-spacing: 1.57px;
+    color: rgb(212 212 212);
+  }
+  
+  .icon {
+    width: 20px;
+    transition: .2s ease;
+  }
+  
+  .icon:hover {
+    cursor: pointer;
+    border-radius: 50px;
+    background-color: #6e7281;
+  }
+  
+  .editor-content {
+    margin: 0 10px 10px;
+    color: white;
+  }
+  
+  .property {
+    margin-left: 30px;
+  }
+  
+  .property:hover {
+    cursor: text;
+  }
+  
+  .editor-content .color-0 {
+    color: rgb(86 156 214);
+  }
+  
+  .editor-content .color-1 {
+    color: rgb(182 206 168);
+  }
+  
+  .editor-content .color-2 {
+    color: rgb(156 220 254);
+  }
+  
+  .editor-content .color-3 {
+    color: rgb(207 146 120);
+  }
+  
+  .color-preview-1,.color-preview-2 {
+    height: 8px;
+    width: 8px;
+    border: 1px solid #fff;
+    display: inline-block;
+    margin-right: 3px;
+  }
+  
+  .color-preview-1 {
+    background-color: #1d1e22;
+  }
+  
+  .color-preview-1 {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  @media screen and (max-width: 1024px){
+    .code-editor{
+        margin: 1rem auto;
+    }
+  }

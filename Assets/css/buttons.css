@@ -1,3 +1,12 @@
+:root{
+  --bg-color: #121212;
+  --text-color: #F4EEE0;
+  --tertiary-text: #c7900f;
+  --secondary-text: #bdbdbd;
+  --hover-color: rgb(245,158,11);
+}
+
+
 /*BUTTON STYLE FROM UIVERSE*/
 .voltage-button {
     position: relative;
