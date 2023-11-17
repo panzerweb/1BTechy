@@ -123,6 +123,16 @@ body::before{
     text-shadow: 1px 0px 25px rgba(16, 87, 54, 1);
 }
 @media screen and (max-width: 1024px) {
+    .navbar-toggler{
+        padding: 0;
+    }
+    .custom-toggler .navbar-toggler-icon {
+        background-color: var(--tertiary-text);
+        padding: 1.5rem;
+        border-radius: 5px;
+      }
+    
+    
     #homepage{
         background-image: linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.801)), url("./Assets/Images/BSIT-1B\ Discord\ Logo.png");    
     }
