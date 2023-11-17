@@ -8,16 +8,16 @@
 }
 
 .bg-1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.377)), url("../Images/photo1.jpg");    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.377)), url("../Assets/Images/photo1.jpg");    
 }
 .bg-2{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.397)), url("../Images/photo2.jpg");    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.397)), url("../Assets/Images/photo2.jpg");    
 }
 .bg-3{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.404)), url("../Images/photo3.jpg");    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.404)), url("../Assets/Images/photo3.jpg");    
 }
 .bg-4{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.404)), url("../Images/photo4.jpg");    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.404)), url("../Assets/Images/photo4.jpg");    
 }
 .carousel-inner{
     height: 100vh;
