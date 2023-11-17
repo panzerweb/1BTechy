@@ -1,0 +1,36 @@
+#dnsc-logo-container{
+    height: 100vh; /* Adjust the height as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container {
+    width: 150vh; /* Adjust the width as needed */
+    overflow: hidden; /* Hide overflow if the logo is larger than the container */
+  }
+  
+  .animated-logo {
+    width: 100%; /* Make the logo fill the container */
+    height: auto; /* Maintain the aspect ratio */
+    animation: spin 4s linear infinite, fadeIn 2s ease; /* Add a fadeIn animation with a 2s delay */
+}
+  
+  @keyframes spin {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
