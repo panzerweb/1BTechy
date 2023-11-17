@@ -1,3 +1,37 @@
+
+:root{
+    --bg-color: #121212;
+    --second-bg: #222222;
+    --text-color: #F4EEE0;
+    --tertiary-text: #c7900f;
+    --secondary-text: #bdbdbd;
+    --hover-color: rgb(245,158,11);
+}
+#dnsc-logo{
+    margin-top: 13rem;
+}
+#dnsc-space{
+    background: var(--second-bg);
+}
+#dnsc-space h3{
+    color: var(--tertiary-text);
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4.827rem;
+}
+#dnsc-space h4{
+    color: var(--secondary-text);
+}
+
+#dnsc-space h4::after{
+    content: "";
+    display: block;
+    width: 40px; /* Adjust the width of the underline */
+    height: 4px; /* Adjust the height and thickness of the underline */
+    background-color: rgb(63, 196, 11); /* Set the color of the underline */
+    margin: 10px auto; /* Adjust the spacing between the text and underline */
+}
+
+
 #dnsc-logo-container{
     height: 100vh; /* Adjust the height as needed */
     display: flex;
@@ -6,7 +40,7 @@
 }
 
 .logo-container {
-    width: 150vh; /* Adjust the width as needed */
+    width: 100%; /* Adjust the width as needed */
     overflow: hidden; /* Hide overflow if the logo is larger than the container */
   }
   
@@ -32,5 +66,21 @@
     to {
       opacity: 1;
     }
+  }
+
+  @media screen and (max-width: 1024px){
+    #dnsc-space h3{
+        font-size: 2.856rem;
+    }
+    .logo-container {
+      width: 100%; /* Adjust the width as needed */
+      overflow: hidden; /* Hide overflow if the logo is larger than the container */
+    }
+    
+    .animated-logo {
+      width: 100%; /* Make the logo fill the container */
+      height: auto; /* Maintain the aspect ratio */
+      animation: spin 4s linear infinite, fadeIn 2s ease; /* Add a fadeIn animation with a 2s delay */
+  }
   }
   

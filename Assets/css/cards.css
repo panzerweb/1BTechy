@@ -14,6 +14,7 @@
 #goals-space h1{
     color: var(--tertiary-text);
     font-family: 'Orbitron', sans-serif;
+    font-size: 4.827rem;
 }
 
 #goals-space h1::after {
@@ -112,6 +113,9 @@
   }
 
   @media screen and (max-width: 1024px){
+    #goals-space h1{
+      font-size: 2.856rem;
+    }
     .code-editor{
         margin: 1rem auto;
     }
