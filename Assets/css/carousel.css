@@ -1,0 +1,75 @@
+:root{
+    --bg-color: #121212;
+    --second-bg: #0e0d0d9f;
+    --text-color: #F4EEE0;
+    --tertiary-text: #c7900f;
+    --secondary-text: #bdbdbd;
+    --hover-color: rgb(245,158,11);
+}
+
+.bg-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.308), rgba(0, 0, 0, 0.377)), url("/Assets/Images/carousel-images/photo1.jpg");    
+}
+.bg-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.397)), url("/Assets/Images/carousel-images/photo2.jpg");    
+}
+.bg-3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.404)), url("/Assets/Images/carousel-images/photo3.jpg");    
+}
+.bg-4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.404)), url("/Assets/Images/carousel-images/photo4.jpg");    
+}
+.carousel-inner{
+    height: 100vh;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;}
+.carousel-image{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: contain;
+}
+
+/** section styling*/
+
+#carousel-section{
+    margin-top: 14rem;
+}
+#carousel-space{
+    background: var(--second-bg);
+}
+#carousel-space h1{
+    color: var(--tertiary-text);
+    font-family: 'Orbitron', sans-serif;
+}
+
+#carousel-space h1::after {
+    content: "";
+    display: block;
+    width: 40px; /* Adjust the width of the underline */
+    height: 4px; /* Adjust the height and thickness of the underline */
+    background-color: rgb(63, 196, 11); /* Set the color of the underline */
+    margin: 10px auto; /* Adjust the spacing between the text and underline */
+  }
+
+/* for the paragraph */
+.bsit-1b-text{
+    text-align: justify;
+    color: var(--secondary-text);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.13rem;
+}
+.bsit-1b-text h3{
+    text-align: justify;
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.63rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1024px){
+    .bsit-1b-text p{
+        font-size: 0.885rem;
+    }
+}
