@@ -107,3 +107,10 @@ function clearForm() {
   }
   
   
+
+  //TOAST
+  document.addEventListener('DOMContentLoaded', function () {
+    var myToast = new bootstrap.Toast(document.getElementById('myToast'));
+    myToast.show();
+});
+

@@ -243,3 +243,42 @@ h4{
     color: var(--secondary-text);
 
 }
+/*!toast/
+/* Center the toast */
+.toast {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 400px;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+@media screen and (max-width: 1024px) {
+    .toast {
+        width: 70%; /* Adjust the width as needed for larger screens */
+        max-width: 300px;
+    }
+
+    h1{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 3.236rem;
+        text-align: center;
+        color: var(--tertiary-text);
+    }
+    h2{
+        font-size: 2.236rem;
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        color: var(--secondary-text);
+    
+    }
+    h4{
+        font-size: 1.236rem;
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        color: var(--secondary-text);
+    
+    }
+}
