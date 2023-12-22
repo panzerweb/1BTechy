@@ -85,7 +85,8 @@ form {
     margin: 20px auto; /* Center the form within the container */
     max-width: 300px; /* Adjust the maximum width as needed */
     width: 100%;
-  }
+    padding: 2rem;
+    box-shadow: rgba(54, 241, 110, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;  }
   
   .input-group {
     position: relative;
@@ -144,13 +145,13 @@ form {
   width: 90%;
   margin: 0 auto;
   height: 2.9em;
-  border: #3654ff 0.2em solid;
+  border: #4f992d 0.2em solid;
   text-align: right;
   transition: all 0.6s ease;
 }
 
 .button:hover {
-  background-color: #3654ff;
+  background-color: #4f992d;
   cursor: pointer;
 }
 
@@ -174,12 +175,14 @@ form {
 #searchResults {
     max-width: 600px;
     width: 90%;
-    margin: 20px auto;
+    margin: 0 auto;
+    margin-bottom: 15rem;
     background-color: #282828;
     border: 1px solid #555;
     border-radius: 8px;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
 }
 
 #searchResults thead {
@@ -243,6 +246,10 @@ h4{
     color: var(--secondary-text);
 
 }
+
+#treasurer-section h3{
+    font-family: 'Orbitron', sans-serif;
+}
 /*!toast/
 /* Center the toast */
 .toast {
@@ -255,6 +262,206 @@ h4{
     transform: translate(-50%, -50%);
     overflow: hidden;
 }
+
+
+/*! Card Section for TREASURER*/
+.card {
+    width: 190px;
+    height: 254px;
+    background: url("../Images/CIARLIEN2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    margin-bottom: 5rem;
+  }
+  
+  .card:hover {
+    width: 190px;
+    height: 254px;
+    background-image: url("../Images/CIARLIEN.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid rgb(200, 200, 200);
+    border-radius: 20px;
+    background-color: #dfdfdf;
+    transition: all .5s;
+
+    box-shadow: #959595 0px 0px 0px 10px;
+    
+  }
+    
+
+
+/**FOOTER STYLE*/
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.site-footer hr
+{
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color:#737373;
+  text-decoration: none;
+}
+.site-footer a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:rgb(112, 204, 51);
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer .social-icons
+  {
+    text-align:center
+  }
+}
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+.social-icons li.title
+{
+  margin-right:15px;
+  text-transform:uppercase;
+  color:#96a2b2;
+  font-weight:700;
+  font-size:13px
+}
+.social-icons a{
+  background-color:#eceeef;
+  color:#818a91;
+  font-size:16px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+  -webkit-transition:all .2s linear;
+  -o-transition:all .2s linear;
+  transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+  line-height:34px;
+  height:34px;
+  width:34px;
+  font-size:14px
+}
+.social-icons a.facebook:hover
+{
+  background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.dribbble:hover
+{
+  background-color:#ea4c89
+}
+@media (max-width:767px)
+{
+  .social-icons li.title
+  {
+    display:block;
+    margin-right:0;
+    font-weight:600
+  }
+}   
+
+/**END OF FOOTER*/
 @media screen and (max-width: 1024px) {
     .toast {
         width: 70%; /* Adjust the width as needed for larger screens */
@@ -281,4 +488,15 @@ h4{
         color: var(--secondary-text);
     
     }
+    .card {
+      width: 100%; /* Make the card full width */
+      max-width: 300px; /* Set a maximum width if needed */
+      margin: 0 auto; /* Center the card */
+      margin-bottom: 2rem; /* Adjust margin as needed */
+    }
+  
+    .card:hover {
+      width: 100%; /* Make the card full width on hover */
+    }
+  
 }
