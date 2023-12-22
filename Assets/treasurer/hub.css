@@ -226,7 +226,22 @@ form {
 
 
 /*todo This style is for the headings only*/
-h1{
+#heading{
+  background: var(--second-bg);
+  padding: 2rem;
+  margin: 5rem 0;
+}
+#heading h1{
+    font-family: 'Orbitron', sans-serif;
+    font-size: 4.236rem;
+    text-align: center;
+    color: var(--tertiary-text);
+}
+#main-heading{
+  background: var(--second-bg);
+  padding: 2rem;
+}
+#main-heading h1{
     font-family: 'Orbitron', sans-serif;
     font-size: 6.236rem;
     text-align: center;
@@ -245,6 +260,14 @@ h4{
     font-family: 'Orbitron', sans-serif;
     color: var(--secondary-text);
 
+}
+
+#treasurer-section{
+  background-image: url("../Images/Background.png"); 
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
 }
 
 #treasurer-section h3{
