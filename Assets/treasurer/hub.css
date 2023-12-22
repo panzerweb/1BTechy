@@ -486,6 +486,14 @@ h4{
 
 /**END OF FOOTER*/
 @media screen and (max-width: 1024px) {
+  .navbar-toggler{
+    padding: 0;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-color: var(--tertiary-text);
+    padding: 1.5rem;
+    border-radius: 5px;
+  }
     .toast {
         width: 70%; /* Adjust the width as needed for larger screens */
         max-width: 300px;
