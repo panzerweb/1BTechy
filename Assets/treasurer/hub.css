@@ -240,7 +240,11 @@ form {
 
 /*todo This style is for the headings only*/
 #heading{
-  background: var(--second-bg);
+  background: linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.801)), url("../Images/wallpaperflare.com_wallpaper\ \(1\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
   padding: 2rem;
   margin: 5rem 0;
 }
@@ -251,7 +255,11 @@ form {
     color: var(--tertiary-text);
 }
 #main-heading{
-  background: var(--second-bg);
+  background: linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.801)), url("../Images/wallpaperflare.com_wallpaper\ \(1\).jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
   padding: 2rem;
 }
 #main-heading h1{
@@ -511,8 +519,14 @@ h4{
         width: 70%; /* Adjust the width as needed for larger screens */
         max-width: 300px;
     }
+    #main-heading h1{
+        font-family: 'Orbitron', sans-serif;
+        font-size: 3.236rem;
+        text-align: center;
+        color: var(--tertiary-text);
 
-    h1{
+    }
+    #heading h1{
         font-family: 'Orbitron', sans-serif;
         font-size: 3.236rem;
         text-align: center;

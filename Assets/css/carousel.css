@@ -36,7 +36,11 @@
     margin-top: 14rem;
 }
 #carousel-space{
-    background: var(--second-bg);
+    background: linear-gradient(rgba(0, 0, 0, 0.836), rgba(0, 0, 0, 0.801)), url("../Images/wallpaperflare.com_wallpaper\ \(1\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
 }
 #carousel-space h1{
     color: var(--tertiary-text);
