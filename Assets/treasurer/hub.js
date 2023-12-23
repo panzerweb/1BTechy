@@ -14,12 +14,26 @@ function addData(){
     const fee = parseInt(feeInput.value);
     const event = eventInput.value.trim();
 
-        if(name && schoolId && !isNaN(fee) && event){
+    const records = getRecords();
+
+      const update = records.some(record => record.name === name);
+
+        if (update) {
+
+          const updatedRecord = {name, schoolId, fee, event};
+          saveRecord(updatedRecord);
+
+        } 
+        else {
+
+          if(name && schoolId && !isNaN(fee) && event){
             const record = { name, schoolId, fee, event };
             saveRecord(record);
             clearForm();
             loadRecords();
+            }
         }
+
 }
 
 function saveRecord(record) {
@@ -39,7 +53,10 @@ function loadRecords() {
     const records = getRecords();
     records.forEach((record, index) => {
       const li = document.createElement('li');
-      li.innerHTML = `<strong>${record.name}</strong>: $${record.fee.toFixed(2)} for ${record.event} <button onclick="deleteRecordFromSearch(${index})">Delete</button>`;
+      li.innerHTML = `<strong>${record.name}</strong>: $${record.fee.toFixed(2)} for ${record.event} 
+      <button onclick="deleteRecordFromSearch(${index})">Delete</button>
+      <button onclick="editRecord(${index})">Edit</button>`;
+
       recordList.appendChild(li);
     });
   
@@ -54,13 +71,6 @@ function clearForm() {
     document.getElementById('event').value = '';
 }
   
-//   function deleteRecord(index) {
-//     let records = getRecords();
-//     records.splice(index, 1);
-//     localStorage.setItem('records', JSON.stringify(records));
-//     loadRecords();
-//   }
-
 
 
   function searchRecords() {
@@ -83,7 +93,10 @@ function clearForm() {
     if (results.length > 0) {
         results.forEach((record, index) => {
             const row = document.createElement('tr');
-            row.innerHTML = `<td>${record.name}</td><td>${record.schoolId}</td><td>Php ${record.fee.toFixed(2)}</td><td>${record.event}</td><td><button class="delete-btn" onclick="deleteRecordFromSearch(${index})">Delete</button></td>`;
+            row.innerHTML = `<td>${record.name}</td><td>${record.schoolId}</td><td>Php ${record.fee.toFixed(2)}</td><td>${record.event}</td>
+            <td><button class="delete-btn" onclick="deleteRecordFromSearch(${index})">Delete</button>
+            <button class="edit-btn" onclick="editRecords(${index})">Edit</button>
+            </td>`;
             searchResultsTable.appendChild(row);
         });
     } else {
@@ -105,7 +118,29 @@ function clearForm() {
     displaySearchResults([]);
 
   }
-  
+
+
+  function editRecords(index) {
+    let records = getRecords();
+    const recordToEdit = records[index];
+
+    // Populate the form with the record's data for editing
+    document.getElementById('name').value = recordToEdit.name;
+    document.getElementById('school-id').value = recordToEdit.schoolId;
+    document.getElementById('fee').value = recordToEdit.fee;
+    document.getElementById('event').value = recordToEdit.event;
+
+    // Delete the record from the records array
+    records.splice(index, 1);
+
+    // Save the updated records array to localStorage
+    localStorage.setItem('records', JSON.stringify(records));
+
+    // Reload and display records after editing
+    loadRecords();
+    searchRecords();
+}
+
   
 
   //TOAST

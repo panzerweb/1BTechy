@@ -223,6 +223,19 @@ form {
 #searchResults td .delete-btn:hover {
     background-color: #ff3333;
 }
+#searchResults td .edit-btn {
+  background-color: #b2b425;
+  color: #fff;
+  border: none;
+  padding: 4px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#searchResults td .edit-btn:hover {
+  background-color: #ac8d06;
+}
 
 
 /*todo This style is for the headings only*/
