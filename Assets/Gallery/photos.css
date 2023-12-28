@@ -111,7 +111,20 @@
       font-size: 2.5rem;
 
   }
+  .container-all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
   
+  .imageheader {
+    width: 100%;
+    overflow: hidden;
+    height: fit-content;
+    margin: 3px;
+    padding: 0;
+    position: relative;
+  }
   
 }
 
