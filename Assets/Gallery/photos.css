@@ -138,6 +138,17 @@
     font-size: 1.327rem;
   }
 }
+
+@media screen and (max-width: 844px) {
+  .imageheader {
+    width: 100%;
+  }
+  .imageheader img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 400px) {
   .imageheader {
         width: 100%;
