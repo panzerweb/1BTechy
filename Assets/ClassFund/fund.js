@@ -5,12 +5,10 @@ document.addEventListener('DOMContentLoaded', function(){
 function addData(){
     const nameInput = document.getElementById('name');
     const feeInput = document.getElementById('fee');
-    const eventInput = document.getElementById('event');
 
 
     const name = nameInput.value.trim();
     const fee = parseInt(feeInput.value);
-    const event = eventInput.value.trim();
     const date = new Date();
       const month = String(date.getMonth() + 1).padStart(2, '0'); // Adding 1 because months are zero-indexed
       const day = String(date.getDate()).padStart(2, '0');
@@ -18,20 +16,21 @@ function addData(){
 
       const formattedDate = `${month}/${day}/${year}`;
 
+
     const records = getRecords();
 
       const update = records.some(record => record.name === name);
 
         if (update) {
 
-          const updatedRecord = {name, fee, event, formattedDate};
+          const updatedRecord = {name, fee, formattedDate};
           saveRecord(updatedRecord);
 
         } 
         else {
 
-          if(name && !isNaN(fee) && event && formattedDate){
-            const record = { name, fee, event, formattedDate };
+          if(name && !isNaN(fee) && formattedDate){
+            const record = { name, fee, formattedDate};
             saveRecord(record);
             clearForm();
             loadRecords();
@@ -57,7 +56,7 @@ function loadRecords() {
     const records = getRecords();
     records.forEach((record, index) => {
       const li = document.createElement('li');
-      li.innerHTML = `<strong>${record.name}</strong>: $${record.fee.toFixed(2)} for ${record.event} 
+      li.innerHTML = `<strong>${record.name}</strong>: $${record.fee.toFixed(2)} for
       <button onclick="deleteRecordFromSearch(${index})">Delete</button>
       <button onclick="editRecord(${index})">Edit</button>`;
 
@@ -71,7 +70,6 @@ function loadRecords() {
 function clearForm() {
     document.getElementById('name').value = '';
     document.getElementById('fee').value = '';
-    document.getElementById('event').value = '';
 }
   
 
@@ -96,10 +94,11 @@ function clearForm() {
     if (results.length > 0) {
         results.forEach((record, index) => {
             const row = document.createElement('tr');
-            row.innerHTML = `<td>${record.name}</td><td>Php ${record.fee.toFixed(2)}</td><td>${record.event}</td>
+            row.innerHTML = `<td>${record.name}</td><td>Php ${record.fee.toFixed(2)}</td>
             <td><button class="delete-btn" onclick="deleteRecordFromSearch(${index})">Delete</button>
             <button class="edit-btn" onclick="editRecords(${index})">Edit</button>
-            </td><td>${record.formattedDate}</td>`;
+            </td><td>${record.formattedDate}</td>
+            <td>${'<i class="bi bi-check-square-fill"></i>'}`;
             searchResultsTable.appendChild(row);
         });
     } else {
@@ -130,7 +129,6 @@ function clearForm() {
     // Populate the form with the record's data for editing
     document.getElementById('name').value = recordToEdit.name;
     document.getElementById('fee').value = recordToEdit.fee;
-    document.getElementById('event').value = recordToEdit.event;
 
     // Delete the record from the records array
     records.splice(index, 1);
@@ -151,3 +149,49 @@ function clearForm() {
     myToast.show();
 });
 
+
+
+// todo for the clock
+
+document.addEventListener('DOMContentLoaded', function() {
+    updateTime(); // Initial call to set the time immediately
+    setInterval(updateTime, 1000); // Update time every second
+});
+
+function updateTime() {
+    const currentTime = new Date();
+    const hours = currentTime.getHours();
+    const minutes = currentTime.getMinutes();
+    const ampm = hours >= 12 ? 'PM' : 'AM';
+
+    const formattedHours = hours % 12 === 0 ? 12 : hours % 12; // Convert 24-hour format to 12-hour format
+    const formattedMinutes = minutes < 10 ? `0${minutes}` : minutes;
+
+    const dayOfWeek = currentTime.toLocaleDateString('en-US', { weekday: 'long' });
+    const dayOfMonth = currentTime.getDate();
+    const month = currentTime.toLocaleDateString('en-US', { month: 'long' });
+
+    document.getElementById('hours').textContent = formattedHours;
+    document.getElementById('minutes').textContent = formattedMinutes;
+    document.querySelector('.time-sub-text').textContent = ampm;
+    document.getElementById('day-text').textContent = `${dayOfWeek}, ${month} ${dayOfMonth}${getOrdinalSuffix(dayOfMonth)}`;
+
+    
+}
+
+function getOrdinalSuffix(day) {
+    if (day >= 11 && day <= 13) {
+        return 'th';
+    }
+    const lastDigit = day % 10;
+    switch (lastDigit) {
+        case 1:
+            return 'st';
+        case 2:
+            return 'nd';
+        case 3:
+            return 'rd';
+        default:
+            return 'th';
+    }
+}
