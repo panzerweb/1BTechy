@@ -46,7 +46,7 @@
 }
 
 .profileImage5{
-    background-image: url("./Members/BALLARES\,\ KENT\ ADRIAN\ D_.jpg");
+    background-image: url("./Members/ASNA\,\ APPLE\ GRACE\ .jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,7 +58,7 @@
 }
 
 .profileImage6{
-    background-image: url("./Members/CORPUZ\,\ JERLYN\ P_.jpg");
+    background-image: url("./Members/BALLARES\,\ KENT\ ADRIAN\ D_.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -70,7 +70,7 @@
 }
 
 .profileImage7{
-    background-image: url("./Members/CORPUZ\,\ KIRT\ VINCENT\ O_.jpg");
+    background-image: url("./Members/BUNTO\ SHAIREN\ JANE\ A.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -81,7 +81,7 @@
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
 }
 .profileImage8{
-    background-image: url("./Members/DAWAL\,\ FILBERT\ B_.jpg");
+    background-image: url("./Members/CORPUZ\,\ JERLYN\ P_.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@
 }
 
 .profileImage9{
-    background-image: url("./Members/DE\ GRACIA\,\ KLARENCE\ A_.jpg");
+    background-image: url("./Members/CORPUZ\,\ KIRT\ VINCENT\ O_.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -104,7 +104,7 @@
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
 }
 .profileImage10{
-    background-image: url("./Members/DUMANDAN\,\ KOBE\ G_.jpg");
+    background-image: url("./Members/DAWAL\,\ FILBERT\ B_.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -115,7 +115,7 @@
     box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
 }
 .profileImage11{
-    background-image: url("./Members/DURAN\,\ CHRISTIAN\ DAVE\ S_.jpg");
+    background-image: url("./Members/DE\ GRACIA\,\ KLARENCE\ A_.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -127,7 +127,312 @@
 }
 
 .profileImage12{
+    background-image: url("./Members/DE\ JUAN\,\ JENIEVA\ C.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+
+.profileImage13{
+    background-image: url("./Members/DUMANDAN\,\ KOBE\ G_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+
+.profileImage14{
+    background-image: url("./Members/DURAN\,\ CHRISTIAN\ DAVE\ S_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage15{
     background-image: url("./Members/ELEVIRA\,\ HERALD\ JAY\ A_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage16{
+    background-image: url("./Members/ETURMA\ \,\ CIARLIEN\ RUTH\ C_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+
+.profileImage17{
+    background-image: url("./Members/FLORIDA\,\ MARIA\ CRISTINA\ B.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage18{
+    background-image: url("./Members/GABITO\,\ KENT\ IVAN\ MANUEL\ C_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage19{
+    background-image: url("./Members/GENERAL\,\ ARTHUR\ JHUN\ A_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage20{
+    background-image: url("./Members/GERALDO\,\ KENT\ DIETHER\ B_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+
+.profileImage21{
+    background-image: url("./Members/IBAÑEZ\,\ PEARL\ GRACE\ S.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage22{
+    background-image: url("./Members/INDIG\,\ RUBY\ JEAN\ V_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+
+.profileImage23{
+    background-image: url("./Members/JALIQUE\,\ KYLA\ S_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage24{
+    background-image: url("./Members/LICO\,\ KENNETH\ D_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+
+.profileImage25{
+    background-image: url("./Members/LOGROSA\,\ ARJEAN\ G.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage26{
+    background-image: url("./Members/LOSABIA\,\ STEPHANIE\ KATE\ O_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage27{
+    background-image: url("./Members/MARIAL\,\ AALIYAH\ ANGELICA\ S_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+
+.profileImage28{
+    background-image: url("./Members/MARIN\,\ GIAN\ CARLO\ R_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage29{
+    background-image: url("./Members/MAYORMITA\,\ AIME\ P_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage30{
+    background-image: url("./Members/MISAL\,\ CHRISTIAN\ J_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage31{
+    background-image: url("./Members/MORALES\,\ CYREL\ JAVE\ M_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage32{
+    background-image: url("./Members/Napinas\,\ Raymond\ Conrad.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage33{
+    background-image: url("./Members/PAQUINOL\,\ JOSEPH\ CLAIRE\ L_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+
+.profileImage34{
+    background-image: url("./Members/REMOROSA\,\ AIMY\ P_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage35{
+    background-image: url("./Members/RODRIGUEZ\,\ JOJIE\ G_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage36{
+    background-image: url("./Members/SINCO\,\ AJ\ SKY\ B_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage37{
+    background-image: url("./Members/TINGSON\,\ DENNIELA\ PRINCESS\ V_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage38{
+    background-image: url("./Members/VILLAR\,\ ROMEO\ SELWYN\ M_.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.329);
+}
+.profileImage39{
+    background-image: url("./Members/YAMID\,\ KENNETH\ JAMES\ G.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
