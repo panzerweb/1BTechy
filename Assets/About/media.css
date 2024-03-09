@@ -1,0 +1,50 @@
+@media screen and (max-width: 1024px) {
+    #carousel-container h1 {
+        font-size: 4rem;
+    }
+    .about-paragraph h1{
+        color: var(--tertiary-text);
+        font-size: 2.67rem;
+        text-align: center;
+    }
+    
+    .about-paragraph p{
+        color: var(--text-color);
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+
+    .overlap-section{
+        margin: 0 auto;
+        width: 70%;
+        background: transparent;
+        box-shadow: rgba(113, 156, 33, 0.11) 0px 54px 55px, rgba(3, 75, 9, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+
+    #text-card{
+        margin: 1rem;
+    }
+
+    #text-card  .card-title{
+        color: #22ff00;
+        font-weight: 900;
+    }
+    #text-card .card-text{
+        color: #22ff00;
+        font-size: 0.8rem;
+    }
+    
+    #text-card h5{
+        color: #4281ff;
+        font-size: 0.9rem;
+        font-weight: 700;
+    }
+    #text-card strong{
+        color: #ff4284;
+    }
+    #text-card span{
+        color: #ffae00;
+        font-size: 0.8rem;
+    
+    }
+}
